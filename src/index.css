@@ -1,0 +1,122 @@
+.entire-page {
+    margin: 0;
+}
+
+.main-con {
+    width: 300px;
+    height: 500px;
+    /* border: 1px solid rgb(187, 78, 63); */
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 10px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.info-con {
+    position: relative;
+    width: inherit;
+    height: 175px;
+}
+
+.image-con {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-image: url("mountain-image1.jpg");
+    background-size: cover;
+    filter: blur(2px);
+}
+
+.current-day {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.current-date {
+    position: absolute;
+    color: #ffffff;
+    bottom: 10px;
+    left: 10px;
+}
+
+.task-list {
+    width: inherit;
+    height: 275px;
+    overflow: scroll;
+}
+
+.add-task {
+    /* border-top: 1px solid rgb(187, 78, 63); */
+    padding: 12px;
+    cursor: pointer;
+    color: rgb(187, 78, 63);
+    background-color: #f1f1f1;
+}
+
+.add-task > span {
+    margin-right: 10px;
+}
+
+.add-task > span > svg {
+    color: rgb(187, 78, 63);
+}
+
+.add-task > p {
+    display: inline;
+    user-select: none;
+}
+
+.task {
+    padding: 12px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.task > span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.task > p {
+    display: inline-block;
+}
+
+.task > span > svg {
+    color: rgb(187, 78, 63);
+}
+
+.task-input {
+    font-weight: 100;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    user-select: none;
+    opacity: 1;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.task-input-strike {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    text-decoration: line-through;
+    user-select: none;
+    opacity: 0.5;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.faIcons {
+    font-size: 24px;
+    position: relative;
+    top: 3px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
